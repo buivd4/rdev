@@ -2,15 +2,14 @@
 
 **Rdev** by **buivd4** is inspired by `auto-rsync`, which makes remote development become easier and faster. With rdev, the remote work directory now is auto-syncing with the local directory. Enjoy coding :D
 ## Installation
+You must install `rsync` and `sshpass` first (automation soon :v).
 Git clone this repository then change the directory to the repository.
-
 From the repository, run:
 ```bash
 $ pip install .
 ```
 
 ## Usage
-
 ```bash
 $ rdev local_directory remote_user@remote_host:remote_path
 ```
